@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/backimage"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authentification"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="User Name"
+        android:layout_margin="20dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/viewbackedit"
+        android:id="@+id/us"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:background="@drawable/viewbackedit"
+        android:id="@+id/ps"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0575E6"
+        android:text="Se connecter"
+        android:layout_margin="5dp"
+        android:background="@drawable/viewback"
+        android:id="@+id/lg"/>
+
+
+
+</LinearLayout>

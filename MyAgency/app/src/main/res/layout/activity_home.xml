@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backimage"
+    tools:context=".home"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/hom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="camping"
+        android:textColor="#fff"
+        android:background="@drawable/backbtn"
+        android:layout_margin="1dp"/>
+
+    <Button
+        android:id="@+id/ran"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="randonnee"
+        android:textColor="#fff"
+        android:background="@drawable/backbtn"
+        android:layout_margin="1dp"
+       />
+
+    <Button
+        android:id="@+id/hote"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="maison d'hote"
+        android:textColor="#fff"
+        android:background="@drawable/backbtn"
+        android:layout_margin="1dp"
+        />
+    <Button
+        android:id="@+id/mesr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Mes Reservations"
+        android:textColor="#fff"
+        android:background="@drawable/backbtn"
+        android:layout_margin="1dp"
+        />
+
+
+</LinearLayout>
